@@ -13,9 +13,8 @@
 .header__top{
     display: flex;
     justify-content: space-between;
-    min-height: 100px;
-    text-align: center;
-    align-items: center;
+    height: 100px;
+    align-items: center
 }
 .header__top-menu{
     ul{
@@ -42,4 +41,7 @@
             line-height: 18px;
         }
     }
+}
+.header__logo{
+    padding-top: 75px;
 }
